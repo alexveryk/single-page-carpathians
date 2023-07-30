@@ -13,17 +13,38 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container container--align">
         <nav class="menu">
           <a class="logo" href="">
-            <svg class="logo__icon">
+            <svg class="logo__icon" width="40" height="40" aria-label="Logo">
               <use href="./images/icons.svg#icon-logo"></use>
             </svg>
           </a>
+          <ul class="menu__list list">
+            <li class="menu__item">
+              <a href="#" class="menu__link link">About us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link link">Tours</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link link">Reviews</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link link">Gallery</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link link">Contacts</a>
+            </li>
+          </ul>
         </nav>
 
-        <button type="button">
-          <svg class="logo__icon">
+        <button class="mobile-menu-button" type="button">
+          <svg
+            class="mobile-menu-button__icon"
+            width="40"
+            height="40"
+            aria-label="menu">
             <use href="./images/icons.svg#icon-menuburger"></use>
           </svg>
         </button>

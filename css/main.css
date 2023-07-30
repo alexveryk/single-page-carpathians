@@ -365,4 +365,7 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .menu__link:hover {
+    border-bottom: 2px solid #f7fbfb;
+  }
 }/*# sourceMappingURL=main.css.map */

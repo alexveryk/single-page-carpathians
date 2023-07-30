@@ -56,5 +56,8 @@
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
+    &:hover {
+      border-bottom: 2px solid $light;
+    }
   }
 }

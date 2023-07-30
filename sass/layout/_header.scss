@@ -1,0 +1,60 @@
+.header {
+  background-color: tomato;
+  height: auto;
+}
+
+.logo {
+  color: $light;
+}
+
+.logo__icon {
+  fill: currentColor;
+}
+
+@media screen and (max-width: 1440px) {
+  .menu__list {
+    display: none;
+  }
+
+  .container--align {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .mobile-menu-button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: $light;
+  }
+
+  .mobile-menu-button__icon {
+    stroke: currentColor;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mobile-menu-button {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu__list {
+    display: flex;
+    gap: 80px;
+  }
+
+  .menu__link {
+    color: $light;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

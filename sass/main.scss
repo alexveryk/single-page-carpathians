@@ -8,6 +8,9 @@
 @import "./utils/visually-hidden";
 
 @import "./base/modern-normalize";
+@import "./base/common";
+@import "./base/reset";
 
 @import "./components/container";
-@import "./components/menu";
+
+@import "./layout/header";

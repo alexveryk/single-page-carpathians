@@ -321,10 +321,20 @@ img {
 
 .logo {
   color: #f7fbfb;
+  display: flex;
+  align-items: center;
 }
 
 .logo__icon {
   fill: currentColor;
+}
+
+.menu__link {
+  display: block;
+}
+
+.container--align {
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -345,6 +355,9 @@ img {
   .mobile-menu-button__icon {
     stroke: currentColor;
   }
+  .container--align {
+    padding-top: 30px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .mobile-menu-button {
@@ -362,10 +375,13 @@ img {
     color: #f7fbfb;
     font-size: 24px;
     font-weight: 500;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .menu__link:hover {
     border-bottom: 2px solid #f7fbfb;
+  }
+  .container--align {
+    padding-top: 24px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -5,10 +5,20 @@
 
 .logo {
   color: $light;
+  display: flex;
+  align-items: center;
 }
 
 .logo__icon {
   fill: currentColor;
+}
+
+.menu__link {
+  display: block;
+}
+
+.container--align {
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -33,6 +43,10 @@
   .mobile-menu-button__icon {
     stroke: currentColor;
   }
+
+  .container--align {
+    padding-top: 30px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -54,10 +68,26 @@
     color: $light;
     font-size: 24px;
     font-weight: 500;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     &:hover {
       border-bottom: 2px solid $light;
     }
   }
+
+  .container--align {
+    padding-top: 24px;
+  }
 }
+
+// @media screen and (min-width: 375px) {
+//   .container--align {
+//     padding-top: 24px;
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .container--align {
+//     padding-top: 24px;
+//   }
+// }

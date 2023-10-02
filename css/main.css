@@ -252,6 +252,10 @@ summary {
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 h1,
@@ -331,6 +335,67 @@ img {
     padding-bottom: 266px;
   }
 }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 375px;
+  background-color: #f7fbfb;
+  padding: 52px 32px 36px 32px;
+}
+
+.modal-btn__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: transparent;
+  border: none;
+  stroke: #202321;
+}
+
+.modal-form__title {
+  color: #1b1d1b;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal-form__description {
+  color: #202321;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.modal-form__input {
+  border: none;
+  border-bottom: 1px solid #a3a5a3;
+  background: #f7fbfb;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 8px;
+}
+.modal-form__input::placeholder {
+  color: #202321;
+  font-size: 16px;
+}
+
 .header {
   position: absolute;
   width: 100%;

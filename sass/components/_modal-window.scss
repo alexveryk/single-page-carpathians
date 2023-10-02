@@ -1,0 +1,29 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 375px;
+
+  background-color: $light;
+  padding: 52px 32px 36px 32px;
+}
+
+.modal-btn__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  background: transparent;
+  border: none;
+  stroke: $secondaryText;
+}

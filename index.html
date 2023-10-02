@@ -86,5 +86,42 @@
       </section>
     </main>
     <footer></footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-btn__close">
+          <svg class="modal-btn__icon-close" width="30" height="30">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <form name="order-form" class="modal-form">
+          <div class="modal-form__group">
+            <h3 class="modal-form__title">Book a tour</h3>
+            <p class="modal-form__description">
+              You can leave your application here and our manager will call you
+              within 10 minutes
+            </p>
+
+            <input
+              class="modal-form__input"
+              type="text"
+              placeholder="Your name*" />
+            <input
+              class="modal-form__input"
+              type="phone"
+              placeholder="Phone number*" />
+
+            <input name="tour" type="checkbox" />
+            <label for="">Ascent to Hoverla</label>
+            <input name="tour" type="checkbox" />
+            <label for="">Ski tour to Bukovel</label>
+            <input name="tour" type="checkbox" />
+            <label for="">Week in Carpathians</label>
+
+            <button type="submit">Call me</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

@@ -27,3 +27,10 @@
   border: none;
   stroke: $secondaryText;
 }
+
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 478px;
+    padding: 60px 52px 40px 52px;
+  }
+}

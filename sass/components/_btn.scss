@@ -1,0 +1,26 @@
+.btn {
+  width: 311px;
+  height: 52px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: $accentColor;
+
+  color: $light;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+
+  &:hover,
+  &:focus {
+    background-color: $primaryText;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 20px;
+  }
+}

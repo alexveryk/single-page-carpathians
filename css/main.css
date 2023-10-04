@@ -370,6 +370,12 @@ img {
   stroke: #202321;
 }
 
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 478px;
+    padding: 60px 52px 40px 52px;
+  }
+}
 .modal-form__title {
   color: #1b1d1b;
   text-align: center;
@@ -386,6 +392,7 @@ img {
 .modal-form__input {
   border: none;
   border-bottom: 1px solid #a3a5a3;
+  width: 100%;
   background: #f7fbfb;
   margin-bottom: 20px;
   font-size: 16px;
@@ -396,6 +403,76 @@ img {
   font-size: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  .modal-form__title {
+    font-size: 32px;
+  }
+  .modal-form__description {
+    font-size: 18px;
+  }
+  .modal-form__description::placeholder {
+    font-size: 18px;
+  }
+}
+.check {
+  display: flex;
+  margin-bottom: 24px;
+  padding-left: 1.6em;
+  color: #1b1d1b;
+  font-size: 16px;
+}
+
+.check__input {
+  position: absolute;
+  appearance: none;
+}
+
+.check__box {
+  padding: 2px;
+  position: absolute;
+  margin-left: -1.6em;
+  width: 1em;
+  height: 1em;
+  border: 1px solid #202321;
+}
+
+.check__input:checked + .check__box {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='checkmark-outline'%3E%3Cpath id='Vector' d='M16.25 5L7.5 15L3.75 11.25' stroke='black' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: 50% 50%;
+}
+
+.check__input:focus + .check__box {
+  box-shadow: 0px 0px 1px 1px #5b86a1;
+}
+
+@media screen and (min-width: 768px) {
+  .check {
+    font-size: 18px;
+  }
+}
+.btn {
+  width: 311px;
+  height: 52px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: #5b86a1;
+  color: #f7fbfb;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn:hover, .btn:focus {
+  background-color: #1b1d1b;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 20px;
+  }
+}
 .header {
   position: absolute;
   width: 100%;

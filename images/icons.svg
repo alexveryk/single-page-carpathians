@@ -42,5 +42,9 @@
 <symbol id="icon-menuburger" viewBox="0 0 32 32">
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.4" d="M4.8 9.6h22.4M4.8 16h22.4M4.8 21.6h22.4"></path>
 </symbol>
+<symbol id="icon-checkmark-outline" viewBox="0 0 20 20">
+<path  d="M16.25 5L7.5 15L3.75 11.25"  stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
 </defs>
 </svg>

@@ -17,6 +17,7 @@
   border: none;
   border-bottom: 1px solid $grey;
 
+  width: 100%;
   background: $light;
   margin-bottom: 20px;
   font-size: 16px;
@@ -26,5 +27,18 @@
     color: $secondaryText;
 
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form__title {
+    font-size: 32px;
+  }
+
+  .modal-form__description {
+    font-size: 18px;
+    &::placeholder {
+      font-size: 18px;
+    }
   }
 }

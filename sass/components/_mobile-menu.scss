@@ -1,0 +1,75 @@
+@media screen and (max-width: 1439px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../../images/hero.jpg");
+    background-size: cover;
+  }
+
+  .mobile-menu__wrapper {
+    width: 233px;
+    height: 100%;
+
+    background-color: rgba(32, 35, 33, 0.7);
+  }
+
+  // *{
+  //   outline: 1px solid tomato;
+  // }
+
+  .mobile-menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: $light;
+    padding-left: 32px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 64px;
+  }
+
+  .mobile_menu__social {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+    padding-left: 32px;
+  }
+
+  .mobile-menu__social-link {
+    color: $light;
+  }
+
+  .mobile-item__link {
+    text-decoration: none;
+    color: $light;
+  }
+
+  .mobile-menu__icon {
+    fill: currentColor;
+
+    width: 30px;
+    height: 30px;
+  }
+
+  .mobile-menu__backdrop {
+    position: relative;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mobile-menu {
+    display: none;
+  }
+}

@@ -34,3 +34,17 @@
     padding: 60px 52px 40px 52px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .modal {
+    max-width: 774px;
+    padding: 116px 100px 60px 100px;
+  }
+
+  .modal-btn__close {
+    top: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+}

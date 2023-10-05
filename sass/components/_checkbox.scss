@@ -37,5 +37,13 @@
 @media screen and (min-width: 768px) {
   .check {
     font-size: 18px;
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .check {
+    font-size: 24px;
+    margin-bottom: 44px;
   }
 }

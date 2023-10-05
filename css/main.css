@@ -376,6 +376,18 @@ img {
     padding: 60px 52px 40px 52px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .modal {
+    max-width: 774px;
+    padding: 116px 100px 60px 100px;
+  }
+  .modal-btn__close {
+    top: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+}
 .modal-form__title {
   color: #1b1d1b;
   text-align: center;
@@ -410,8 +422,33 @@ img {
   .modal-form__description {
     font-size: 18px;
   }
-  .modal-form__description::placeholder {
+  .modal-form__input {
     font-size: 18px;
+  }
+  .modal-form__input::placeholder {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .modal-form__title {
+    font-size: 60px;
+    margin-bottom: 24px;
+  }
+  .modal-form__description {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .modal-form__description::placeholder {
+    font-size: 24px;
+  }
+  .modal-form__input {
+    font-size: 24px;
+  }
+  .modal-form__input::placeholder {
+    font-size: 24px;
+  }
+  .modal-form__input {
+    margin-bottom: 24px;
   }
 }
 .check {
@@ -448,6 +485,13 @@ img {
 @media screen and (min-width: 768px) {
   .check {
     font-size: 18px;
+    margin-bottom: 34px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .check {
+    font-size: 24px;
+    margin-bottom: 44px;
   }
 }
 .btn {
@@ -470,7 +514,74 @@ img {
 
 @media screen and (min-width: 768px) {
   .btn {
+    width: 100%;
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    width: 100%;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/hero.jpg");
+    background-size: cover;
+  }
+  .mobile-menu__wrapper {
+    width: 233px;
+    height: 100%;
+    background-color: rgba(32, 35, 33, 0.7);
+  }
+  .mobile-menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #f7fbfb;
+    padding-left: 32px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 64px;
+  }
+  .mobile_menu__social {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+    padding-left: 32px;
+  }
+  .mobile-menu__social-link {
+    color: #f7fbfb;
+  }
+  .mobile-item__link {
+    text-decoration: none;
+    color: #f7fbfb;
+  }
+  .mobile-menu__icon {
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+  }
+  .mobile-menu__backdrop {
+    position: relative;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mobile-menu {
+    display: none;
   }
 }
 .header {
@@ -642,5 +753,9 @@ img {
   }
   .hero__icon {
     fill: currentColor;
+  }
+  .hero__button {
+    width: 575px;
+    font-size: 24px;
   }
 }/*# sourceMappingURL=main.css.map */

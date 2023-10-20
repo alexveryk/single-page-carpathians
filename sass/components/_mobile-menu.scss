@@ -12,15 +12,24 @@
   }
 
   .mobile-menu__wrapper {
+    display: flex;
+    flex-direction: column;
+
     width: 233px;
     height: 100%;
 
     background-color: rgba(32, 35, 33, 0.7);
+
+    @media screen and (min-width: 768px) {
+      & {
+        width: 374px;
+      }
+    }
   }
 
-  // *{
-  //   outline: 1px solid tomato;
-  // }
+  .mobile-menu__btn-close {
+    border: none;
+  }
 
   .mobile-menu__list {
     display: flex;
@@ -54,6 +63,12 @@
 
   .mobile-item__link {
     text-decoration: none;
+    color: $light;
+  }
+
+  .mobile-menu__logo {
+    width: 40px;
+    margin: 20px 0 72px 32px;
     color: $light;
   }
 

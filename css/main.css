@@ -535,9 +535,21 @@ img {
     background-size: cover;
   }
   .mobile-menu__wrapper {
+    display: flex;
+    flex-direction: column;
     width: 233px;
     height: 100%;
     background-color: rgba(32, 35, 33, 0.7);
+  }
+}
+@media screen and (max-width: 1439px) and (min-width: 768px) {
+  .mobile-menu__wrapper {
+    width: 374px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .mobile-menu__btn-close {
+    border: none;
   }
   .mobile-menu__list {
     display: flex;
@@ -568,6 +580,11 @@ img {
   }
   .mobile-item__link {
     text-decoration: none;
+    color: #f7fbfb;
+  }
+  .mobile-menu__logo {
+    width: 40px;
+    margin: 20px 0 72px 32px;
     color: #f7fbfb;
   }
   .mobile-menu__icon {

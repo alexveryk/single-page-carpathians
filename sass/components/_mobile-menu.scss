@@ -28,7 +28,16 @@
   }
 
   .mobile-menu__btn-close {
+    position: absolute;
+    top: 21px;
+    right: 32px;
     border: none;
+    background-color: transparent;
+    color: $light;
+  }
+
+  .mobile-menu__icon-close {
+    stroke: currentColor;
   }
 
   .mobile-menu__list {
@@ -81,6 +90,8 @@
 
   .mobile-menu__backdrop {
     position: relative;
+
+    height: 100%;
   }
 }
 @media screen and (min-width: 1440px) {

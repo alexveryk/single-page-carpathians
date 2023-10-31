@@ -15,7 +15,7 @@
     <header class="header">
       <div class="container container--align">
         <nav class="menu">
-          <a class="logo" href="">
+          <a class="logo" href="" data-hide>
             <svg class="logo__icon" width="40" height="40" aria-label="Logo">
               <use href="./images/icons.svg#icon-logo"></use>
             </svg>
@@ -41,9 +41,9 @@
 
         <!-- Mobile menu Start-->
 
-        <div class="mobile-menu">
+        <div class="mobile-menu" data-menu>
           <div class="mobile-menu__backdrop">
-            <button class="mobile-menu__btn-close">
+            <button class="mobile-menu__btn-close" data-menu-close>
               <svg class="mobile-menu__icon-close" width="30" height="30">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
@@ -104,7 +104,11 @@
 
         <!-- Mobile menu End -->
 
-        <button class="mobile-menu-button" type="button">
+        <button
+          class="mobile-menu-button"
+          data-hide
+          type="button"
+          data-menu-open>
           <svg
             class="mobile-menu-button__icon"
             width="40"
@@ -115,15 +119,17 @@
         </button>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="hero">
         <div class="container container--center container--paddings">
-          <h1 class="hero__title">Tours To The Carpathians from Lviv</h1>
-          <p class="hero__intro-text">
+          <h1 class="hero__title" data-hide>
+            Tours To The Carpathians from Lviv
+          </h1>
+          <p class="hero__intro-text" data-hide>
             Journeys to the very heart of the Carpathians for those who want a
             real reboot
           </p>
-          <button class="hero__button" type="button" data-modal-open>
+          <button class="hero__button" type="button" data-modal-open data-hide>
             Book a tour
           </button>
           <ul class="hero__list list">
@@ -203,5 +209,6 @@
     </div>
     <!-- Modal end -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobileMenu.js"></script>
   </body>
 </html>

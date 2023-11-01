@@ -532,7 +532,6 @@ img {
   }
   .hide-on-mobile-menu {
     opacity: 0;
-    display: none;
   }
   .mobile-menu {
     position: fixed;

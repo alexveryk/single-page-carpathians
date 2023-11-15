@@ -299,14 +299,15 @@ img {
   padding-left: 32px;
   padding-right: 32px;
 }
-
 .container--center {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
-
-.container--paddings {
+.container--padding-top {
+  padding-top: 52px;
+}
+.container--paddings-bottom-hero {
   padding-bottom: 194px;
 }
 
@@ -323,7 +324,7 @@ img {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .container--paddings {
+  .container--paddings-bottom-hero {
     padding-bottom: 185px;
   }
 }
@@ -332,8 +333,11 @@ img {
     width: 1170px;
     padding: 0;
   }
-  .container--paddings {
+  .container--paddings-bottom-hero {
     padding-bottom: 266px;
+  }
+  .container--padding-top {
+    padding-top: 80px;
   }
 }
 .backdrop {
@@ -797,6 +801,36 @@ img {
   }
   .hero__button {
     width: 575px;
+    font-size: 24px;
+  }
+}
+.about__header {
+  color: #1b1d1b;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.about__paragraf {
+  color: #202321;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .about__header {
+    font-size: 52px;
+  }
+  .about__paragraf {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about__header {
+    font-size: 68px;
+  }
+  .about__paragraf {
     font-size: 24px;
   }
 }/*# sourceMappingURL=main.css.map */

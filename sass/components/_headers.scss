@@ -1,0 +1,27 @@
+.header-light-bg {
+  color: $primaryText;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header-dark-bg {
+  color: $light;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-light-bg,
+  .header-dark-bg {
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-light-bg,
+  .header-dark-bg {
+    font-size: 68px;
+  }
+}

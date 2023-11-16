@@ -1,12 +1,4 @@
-.about {
-}
-
 .about__header {
-  color: $primaryText;
-  font-size: 32px;
-  font-weight: 400;
-  text-align: center;
-
   margin-bottom: 28px;
 }
 
@@ -14,23 +6,18 @@
   color: $secondaryText;
   font-size: 16px;
   margin-bottom: 1em;
+  &--last {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .about__header {
-    font-size: 52px;
-  }
-
   .about__paragraf {
     font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about__header {
-    font-size: 68px;
-  }
-
   .about__paragraf {
     font-size: 24px;
   }

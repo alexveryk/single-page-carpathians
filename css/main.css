@@ -915,7 +915,7 @@ img {
   }
   .advantages__list {
     width: 1170px;
-    background-image: url("../../images/advantages_1.png"), url("../../images/advantages_2.jpg"), url("../../images/advantages_3.jpg");
+    background-image: url("../images/advantages_1.png"), url("../images/advantages_2.jpg"), url("../images/advantages_3.jpg");
     background-size: 377px 558px, 377px 507px, 377px 588px;
     background-repeat: no-repeat;
     background-position: 0 0, 396px 104px, 792px 220px;

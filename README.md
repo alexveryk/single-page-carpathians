@@ -1,6 +1,3 @@
-Щоб забезпечити функціональність переключення мов, ми можемо додати підтримку двох мов - англійської та української - і включити в текст відповідні секції для кожної мови. Ось оновлений README:
-
-```markdown
 # Carpathians Tours / Тури в Карпати
 
 [English](#english) | [Українська](#українська)
@@ -122,4 +119,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For any inquiries or assistance, please contact us at info@carpathianstours.com. Connect with us on social media: Facebook, Twitter.
+
+```
+
 ```

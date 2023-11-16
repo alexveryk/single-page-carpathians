@@ -60,7 +60,7 @@ Carpathians Tours - це веб-сайт з однієї сторінки, ст�
 
 Для будь-яких запитань чи допомоги зв'яжіться з нами за адресою info@carpathianstours.com. Приєднуйтеся до нас у соціальних мережах: Facebook, Twitter.
 
-[English](#english)
+## English
 
 Carpathians Tours
 Welcome to the Carpathians Tours website! Explore the beauty of the Carpathian mountains with our exciting tours and discover the magic of nature. This README provides an overview of the project structure and key features.

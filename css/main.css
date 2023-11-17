@@ -862,7 +862,7 @@ img {
   flex-direction: column;
   gap: 28px;
   width: 100%;
-  background-image: url("../../images/advantages_3.jpg");
+  background-image: url("../images/advantages_3.jpg");
   background-size: cover;
   padding: 87px 0 87px 0;
 }
@@ -892,7 +892,7 @@ img {
   }
   .advantages__list {
     width: 728px;
-    background-image: url("../../images/advantages_1.png"), url("../../images/advantages_3.jpg");
+    background-image: url("../images/advantages_1.png"), url("../images/advantages_3.jpg");
     background-size: 354px 441px, 354px 441px;
     background-repeat: no-repeat;
     background-position: 0 0, 374px 220px;

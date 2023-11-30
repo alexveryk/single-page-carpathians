@@ -1,0 +1,23 @@
+.tours__carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%; /* Ширина каруселі, змініть за потребою */
+}
+
+.tours__carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.tours__card {
+  flex: 0 0 auto;
+  max-width: 311px; /* Ширина карточки, змініть за потребою */
+  margin-right: 10px; /* Відстань між карточками, змініть за потребою */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tours__card-img {
+  max-width: 311px;
+}

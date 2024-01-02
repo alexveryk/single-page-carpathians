@@ -7,7 +7,7 @@
 .tours__carousel-container {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  border: 1px solid $accentColor;
+
   background: $light;
 }
 
@@ -16,12 +16,13 @@
   max-width: 311px; /* Ширина карточки, змініть за потребою */
   margin-right: 15px; /* Відстань між карточками, змініть за потребою */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+
   overflow: hidden;
+  border: 1px solid $accentColor;
 }
 
 .tours__card-img {
-  max-width: 311px;
+  max-width: 309px;
   height: 338px;
   object-fit: cover;
 }
@@ -43,7 +44,7 @@
 }
 
 .tours__details {
-  display: inline-block;
+  display: block;
   font-size: 16px;
   font-weight: 600;
   padding-bottom: 20px;
@@ -51,8 +52,10 @@
 
 .tours__btn {
   all: unset;
+  display: block;
   width: 100%;
-  padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 
   color: #f7fbfb;
   font-size: 16px;
@@ -61,4 +64,24 @@
   text-align: center;
 
   background-color: $accentColor;
+}
+
+.tours__arrow-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.tours__btn-left,
+.tours__btn-right {
+  all: unset;
+  color: $grey;
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+
+  & .tours__icon {
+    fill: currentColor;
+  }
 }

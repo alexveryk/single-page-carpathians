@@ -1,11 +1,12 @@
 .btn {
+  all: unset;
   width: 311px;
   height: 52px;
   padding: 10px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: none;
+
   background-color: $accentColor;
 
   color: $light;

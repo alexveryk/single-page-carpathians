@@ -3,6 +3,9 @@
   font-size: 32px;
   font-weight: 400;
   text-align: center;
+  &--padding-bottom {
+    padding-bottom: 28px;
+  }
 }
 
 .header-dark-bg {
@@ -10,6 +13,9 @@
   font-size: 32px;
   font-weight: 400;
   text-align: center;
+  &--padding-bottom {
+    padding-bottom: 28px;
+  }
 }
 
 * {

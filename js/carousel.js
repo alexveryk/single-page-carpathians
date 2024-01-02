@@ -3,7 +3,7 @@ const cards = document.querySelectorAll(".tours__card");
 let currentIndex = 0;
 
 function showCard(index) {
-  const offset = -index * 310; // Ширина карточки (300px) + відстань між карточками (10px)
+  const offset = -index * 326; // Ширина карточки (311px) + відстань між карточками (15px)
   container.style.transform = `translateX(${offset}px)`;
 }
 

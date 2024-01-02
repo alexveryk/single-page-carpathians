@@ -43,7 +43,10 @@
 
         <div class="mobile-menu" data-menu>
           <div class="mobile-menu__backdrop">
-            <button class="mobile-menu__btn-close" data-menu-close>
+            <button
+              type="button"
+              class="mobile-menu__btn-close"
+              data-menu-close>
               <svg class="mobile-menu__icon-close" width="30" height="30">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
@@ -223,32 +226,52 @@
       </section>
       <section class="tours">
         <div class="container container--padding-top">
-          <h2 class="tours__header header-light-bg">Upcoming tours</h2>
+          <h2
+            class="tours__header header-light-bg header-light-bg--padding-bottom">
+            Upcoming tours
+          </h2>
           <div class="tours__carousel">
             <div class="tours__carousel-container" id="carousel-container">
               <div class="tours__card">
-                CARD_1
                 <img
                   class="tours__card-img"
                   src="./images/tours/tours_card_1.jpg"
                   alt="Ascent to Hoverla" />
+                <div
+                  class="tours__info-container tours__info-container--padding-top tours__info-container--padding-bottom">
+                  <h3 class="tours__title">Week in Carpathians</h3>
+                  <span class="tours__details">From UAH 9,999/person</span>
+                  <button type="button" class="tours__btn">More details</button>
+                </div>
               </div>
               <div class="tours__card">
-                CARD_2
                 <img
                   class="tours__card-img"
                   src="./images/tours/tours_card_2.jpg"
                   alt="Ascent to Hoverla" />
+                <div
+                  class="tours__info-container tours__info-container--padding-top tours__info-container--padding-bottom">
+                  <h3 class="tours__title">Ski tour to Bukovel</h3>
+                  <span class="tours__details">From UAH 7,499/person</span>
+                  <button type="button" class="tours__btn">More details</button>
+                </div>
               </div>
               <div class="tours__card">
-                CARD_3
                 <img
                   class="tours__card-img"
                   src="./images/tours/tours_card_3.jpg"
                   alt="Ascent to Hoverla" />
+                <div
+                  class="tours__info-container tours__info-container--padding-top tours__info-container--padding-bottom">
+                  <h3 class="tours__title">Ascent to Hoverla</h3>
+                  <span class="tours__details">From UAH 4,499/person</span>
+                  <button type="button" class="tours__btn">More details</button>
+                </div>
               </div>
               <!-- Додайте інші карточки, які вам потрібно -->
             </div>
+            <button type="button">left</button>
+            <button type="button">right</button>
           </div>
         </div>
       </section>
@@ -258,7 +281,7 @@
     <!-- Modal start -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn__close" data-modal-close>
+        <button type="button" class="modal-btn__close" data-modal-close>
           <svg class="modal-btn__icon-close" width="30" height="30">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>

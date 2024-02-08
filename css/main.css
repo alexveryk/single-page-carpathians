@@ -307,6 +307,9 @@ img {
 .container--padding-top {
   padding-top: 52px;
 }
+.container--padding-bottom {
+  padding-bottom: 52px;
+}
 .container--paddings-bottom-hero {
   padding-bottom: 194px;
 }
@@ -358,6 +361,10 @@ img {
 }
 .header-dark-bg--padding-bottom {
   padding-bottom: 28px;
+}
+
+* {
+  outline: 1px solid tomato;
 }
 
 @media screen and (min-width: 768px) {
@@ -547,6 +554,17 @@ img {
 }
 .btn:hover, .btn:focus {
   background-color: #1b1d1b;
+}
+
+.arrow-btn {
+  all: unset;
+  color: #a3a5a3;
+}
+.arrow-btn:hover, .arrow-btn:focus {
+  color: #5b86a1;
+}
+.arrow-btn .tours__icon {
+  fill: currentColor;
 }
 
 @media screen and (min-width: 768px) {
@@ -1002,25 +1020,15 @@ img {
   padding-top: 24px;
 }
 
-.tours__btn-left,
-.tours__btn-right {
-  all: unset;
-  color: #a3a5a3;
-}
-.tours__btn-left:hover, .tours__btn-left:focus,
-.tours__btn-right:hover,
-.tours__btn-right:focus {
-  color: #5b86a1;
-}
-.tours__btn-left .tours__icon,
-.tours__btn-right .tours__icon {
-  fill: currentColor;
+.reviews__card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .reviews__card {
   width: 311px;
   min-height: 452px;
-  margin-bottom: 32px;
   background-image: url(../../images/bg_reviews.png);
   background-size: 100% 134px;
   background-repeat: no-repeat;
@@ -1102,4 +1110,29 @@ img {
     width: 125px;
     height: 125px;
   }
+}
+.gallery__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.gallery__img-thumb {
+  width: 280px;
+  height: 480px;
+  overflow: hidden;
+}
+.gallery__img-thumb img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+
+.gallery__arrow-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
 }/*# sourceMappingURL=main.css.map */

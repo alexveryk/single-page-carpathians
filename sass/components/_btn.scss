@@ -20,6 +20,19 @@
   }
 }
 
+.arrow-btn {
+  all: unset;
+  color: $grey;
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+
+  & .tours__icon {
+    fill: currentColor;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .btn {
     width: 100%;

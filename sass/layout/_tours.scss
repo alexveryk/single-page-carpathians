@@ -71,17 +71,3 @@
   justify-content: center;
   padding-top: 24px;
 }
-
-.tours__btn-left,
-.tours__btn-right {
-  all: unset;
-  color: $grey;
-  &:hover,
-  &:focus {
-    color: $accentColor;
-  }
-
-  & .tours__icon {
-    fill: currentColor;
-  }
-}

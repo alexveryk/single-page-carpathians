@@ -1,0 +1,36 @@
+.gallery {
+}
+
+.gallery__header {
+}
+
+.gallery__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  overflow: hidden;
+}
+
+.gallery__item {
+}
+
+.gallery__img-thumb {
+  width: 280px;
+  height: 480px;
+  overflow: hidden;
+
+  & img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+}
+
+.gallery__arrow-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}

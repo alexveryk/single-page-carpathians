@@ -22,6 +22,8 @@
 
 .arrow-btn {
   all: unset;
+  width: 28px;
+  height: 28px;
   color: $grey;
   &:hover,
   &:focus {
@@ -38,11 +40,21 @@
     width: 100%;
     font-size: 20px;
   }
+
+  .arrow-btn {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .btn {
     width: 100%;
     font-size: 24px;
+  }
+
+  .arrow-btn {
+    width: 40px;
+    height: 40px;
   }
 }

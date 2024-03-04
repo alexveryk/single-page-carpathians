@@ -1030,6 +1030,20 @@ img {
   padding-top: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .tours__card {
+    width: 354px;
+  }
+  .tours__card-img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .tours__arrow-container {
+    display: none;
+  }
+}
 .reviews__card-container {
   display: flex;
   flex-direction: column;

@@ -268,7 +268,6 @@
                   <button type="button" class="tours__btn">More details</button>
                 </div>
               </div>
-              <!-- Додайте інші карточки, які вам потрібно -->
             </div>
           </div>
           <div class="tours__arrow-container">
@@ -292,74 +291,101 @@
             Reviews
           </h2>
           <div class="reviews__card-container">
-            <div class="reviews__card">
-              <div class="reviews__img-thumb">
-                <img
-                  class="reviews__avatar"
-                  src="./images/avatars/Maria.png"
-                  alt="avatar"
-                  width="125"
-                  height="125" />
-              </div>
-
-              <h3 class="reviews__name">Maria</h3>
+            <div class="reviews__card " id="reviews__card-one">
+              <div class="reviews__card-inner">
+                
+                <div class="reviews__card-front">
+                  <div class="reviews__img-thumb">
+                    <img
+                      class="reviews__avatar"
+                      src="./images/avatars/Maria.png"
+                      alt="avatar"
+                      width="125"
+                      height="125" />
+                  </div>
+                  <h3 class="reviews__name">Maria</h3>
               <p class="reviews__comment">
                 It was really cool! We saw everything - sun, snow, rain, fog!
                 It's very exciting and interesting, you won't regret it - it's
                 worth going and seeing everything with your own eyes. Everything
                 is organized at the highest level.
               </p>
-              <button class="reviews__btn">
+              <button class="reviews__btn" onclick="flipCardOne()">
                 <svg class="reviews__icon" width="32" height="32">
                   <use href="./images/icons.svg#icon-round"></use>
                 </svg>
               </button>
-            </div>
-
-            <div class="reviews__card">
-              <div class="reviews__img-thumb">
-                <img
-                  class="reviews__avatar"
-                  src="./images/avatars/Ostap.png"
-                  alt="avatar"
-                  width="125"
-                  height="125" />
+                </div>
+                <div class="reviews__card-back">
+                  <div class="reviews__bgback" onclick="flipCardOne()">
+                    <img src="./images/reviews/rectangle.jpg"  class='reviews__img'>
+                  </div>
+                </div>
               </div>
-
-              <h3 class="reviews__name">Ostap</h3>
+            </div>
+            <div class="reviews__card " id="reviews__card-two">
+              <div class="reviews__card-inner">
+                
+                <div class="reviews__card-front">
+                  <div class="reviews__img-thumb">
+                    <img
+                      class="reviews__avatar"
+                      src="./images/avatars/Ostap.png"
+                      alt="avatar"
+                      width="125"
+                      height="125" />
+                  </div>
+                  <h3 class="reviews__name">Ostap</h3>
               <p class="reviews__comment">
-                Good organization, everything went smoothly. Friendly guide
-                Taras told interesting facts about the area and customs
+                Good organization, everything went smoothly. Friendly guide 
+                Taras told interesting facts about the area and customs 
                 throughout the tour.
               </p>
-              <button class="reviews__btn">
+              <button class="reviews__btn" onclick="flipCardTwo()">
                 <svg class="reviews__icon" width="32" height="32">
                   <use href="./images/icons.svg#icon-round"></use>
                 </svg>
               </button>
-            </div>
-            <div class="reviews__card reviews__card--third">
-              <div class="reviews__img-thumb">
-                <img
-                  class="reviews__avatar"
-                  src="./images/avatars/Anita.png"
-                  alt="avatar"
-                  width="125"
-                  height="125" />
+                   
+                </div>
+                <div class="reviews__card-back">
+                  <div class="reviews__bgback" onclick="flipCardTwo()">
+                    <img src="./images/reviews/rectangle2.jpg"  class='reviews__img'>
+                  </div>
+                </div>
               </div>
-
-              <h3 class="reviews__name">Anita</h3>
+            </div>
+            <div class="reviews__card reviews__card--third" id="reviews__card-three">
+              <div class="reviews__card-inner">
+                
+                <div class="reviews__card-front">
+                  <div class="reviews__img-thumb">
+                    <img
+                      class="reviews__avatar"
+                      src="./images/avatars/Anita.png"
+                      alt="avatar"
+                      width="125"
+                      height="125" />
+                  </div>
+                  <h3 class="reviews__name">Anita</h3>
               <p class="reviews__comment">
-                Who is going to the mountains for the first time - this is
-                exactly the tour and the people who organize everything. Guide
-                Makar is interesting stories, selection of a route for a
-                comfortable ascent, motivation and support.
+                Who is going to the mountains for the first time - this is
+                 exactly the tour and the people who organize everything.
+                 Guide Makar is interesting stories, selection of a route for 
+                 a comfortable ascent, motivation and support.
               </p>
-              <button class="reviews__btn">
+              <button class="reviews__btn" onclick="flipCardThree()">
                 <svg class="reviews__icon" width="32" height="32">
                   <use href="./images/icons.svg#icon-round"></use>
                 </svg>
               </button>
+                </div>
+                <div class="reviews__card-back">
+                  <div class="reviews__bgback" onclick="flipCardThree()">
+                    <img src="./images/reviews/rectangle.jpg"  class='reviews__img'>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -593,5 +619,6 @@
     <script src="./js/modal.js"></script>
     <script src="./js/mobileMenu.js"></script>
     <script src="./js/carousel.js"></script>
+    <script src="./js/flipCard.js"></script>
   </body>
 </html>

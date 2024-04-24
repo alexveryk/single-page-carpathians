@@ -233,10 +233,13 @@
           <div class="tours__carousel">
             <div class="tours__carousel-container" id="carousel-container">
               <div class="tours__card">
-                <img
-                  class="tours__card-img"
-                  src="./images/tours/tours_card_1.jpg"
-                  alt="Ascent to Hoverla" />
+                <div class="tours__img-thumb">
+                  <img
+                    class="tours__card-img"
+                    src="./images/tours/tours_card_1.jpg"
+                    alt="Ascent to Hoverla" />
+                </div>
+
                 <div
                   class="tours__info-container tours__info-container--padding-top tours__info-container--padding-bottom">
                   <h3 class="tours__title">Week in Carpathians</h3>
@@ -245,10 +248,12 @@
                 </div>
               </div>
               <div class="tours__card">
-                <img
-                  class="tours__card-img"
-                  src="./images/tours/tours_card_2.jpg"
-                  alt="Ascent to Hoverla" />
+                <div class="tours__img-thumb">
+                  <img
+                    class="tours__card-img"
+                    src="./images/tours/tours_card_2.jpg"
+                    alt="Ascent to Hoverla" />
+                </div>
                 <div
                   class="tours__info-container tours__info-container--padding-top tours__info-container--padding-bottom">
                   <h3 class="tours__title">Ski tour to Bukovel</h3>
@@ -257,10 +262,12 @@
                 </div>
               </div>
               <div class="tours__card">
-                <img
-                  class="tours__card-img"
-                  src="./images/tours/tours_card_3.jpg"
-                  alt="Ascent to Hoverla" />
+                <div class="tours__img-thumb">
+                  <img
+                    class="tours__card-img"
+                    src="./images/tours/tours_card_3.jpg"
+                    alt="Ascent to Hoverla" />
+                </div>
                 <div
                   class="tours__info-container tours__info-container--padding-top tours__info-container--padding-bottom">
                   <h3 class="tours__title">Ascent to Hoverla</h3>
@@ -291,9 +298,8 @@
             Reviews
           </h2>
           <div class="reviews__card-container">
-            <div class="reviews__card " id="reviews__card-one">
+            <div class="reviews__card" id="reviews__card-one">
               <div class="reviews__card-inner">
-                
                 <div class="reviews__card-front">
                   <div class="reviews__img-thumb">
                     <img
@@ -304,28 +310,29 @@
                       height="125" />
                   </div>
                   <h3 class="reviews__name">Maria</h3>
-              <p class="reviews__comment">
-                It was really cool! We saw everything - sun, snow, rain, fog!
-                It's very exciting and interesting, you won't regret it - it's
-                worth going and seeing everything with your own eyes. Everything
-                is organized at the highest level.
-              </p>
-              <button class="reviews__btn" onclick="flipCardOne()">
-                <svg class="reviews__icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-round"></use>
-                </svg>
-              </button>
+                  <p class="reviews__comment">
+                    It was really cool! We saw everything - sun, snow, rain,
+                    fog! It's very exciting and interesting, you won't regret it
+                    - it's worth going and seeing everything with your own eyes.
+                    Everything is organized at the highest level.
+                  </p>
+                  <button class="reviews__btn" onclick="flipCardOne()">
+                    <svg class="reviews__icon" width="32" height="32">
+                      <use href="./images/icons.svg#icon-round"></use>
+                    </svg>
+                  </button>
                 </div>
                 <div class="reviews__card-back">
                   <div class="reviews__bgback" onclick="flipCardOne()">
-                    <img src="./images/reviews/rectangle.jpg"  class='reviews__img'>
+                    <img
+                      src="./images/reviews/rectangle.jpg"
+                      class="reviews__img" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="reviews__card " id="reviews__card-two">
+            <div class="reviews__card" id="reviews__card-two">
               <div class="reviews__card-inner">
-                
                 <div class="reviews__card-front">
                   <div class="reviews__img-thumb">
                     <img
@@ -336,28 +343,30 @@
                       height="125" />
                   </div>
                   <h3 class="reviews__name">Ostap</h3>
-              <p class="reviews__comment">
-                Good organization, everything went smoothly. Friendly guide 
-                Taras told interesting facts about the area and customs 
-                throughout the tour.
-              </p>
-              <button class="reviews__btn" onclick="flipCardTwo()">
-                <svg class="reviews__icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-round"></use>
-                </svg>
-              </button>
-                   
+                  <p class="reviews__comment">
+                    Good organization, everything went smoothly. Friendly guide
+                    Taras told interesting facts about the area and customs
+                    throughout the tour.
+                  </p>
+                  <button class="reviews__btn" onclick="flipCardTwo()">
+                    <svg class="reviews__icon" width="32" height="32">
+                      <use href="./images/icons.svg#icon-round"></use>
+                    </svg>
+                  </button>
                 </div>
                 <div class="reviews__card-back">
                   <div class="reviews__bgback" onclick="flipCardTwo()">
-                    <img src="./images/reviews/rectangle2.jpg"  class='reviews__img'>
+                    <img
+                      src="./images/reviews/rectangle2.jpg"
+                      class="reviews__img" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="reviews__card reviews__card--third" id="reviews__card-three">
+            <div
+              class="reviews__card reviews__card--third"
+              id="reviews__card-three">
               <div class="reviews__card-inner">
-                
                 <div class="reviews__card-front">
                   <div class="reviews__img-thumb">
                     <img
@@ -368,21 +377,23 @@
                       height="125" />
                   </div>
                   <h3 class="reviews__name">Anita</h3>
-              <p class="reviews__comment">
-                Who is going to the mountains for the first time - this is
-                 exactly the tour and the people who organize everything.
-                 Guide Makar is interesting stories, selection of a route for 
-                 a comfortable ascent, motivation and support.
-              </p>
-              <button class="reviews__btn" onclick="flipCardThree()">
-                <svg class="reviews__icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-round"></use>
-                </svg>
-              </button>
+                  <p class="reviews__comment">
+                    Who is going to the mountains for the first time - this is
+                    exactly the tour and the people who organize everything.
+                    Guide Makar is interesting stories, selection of a route for
+                    a comfortable ascent, motivation and support.
+                  </p>
+                  <button class="reviews__btn" onclick="flipCardThree()">
+                    <svg class="reviews__icon" width="32" height="32">
+                      <use href="./images/icons.svg#icon-round"></use>
+                    </svg>
+                  </button>
                 </div>
                 <div class="reviews__card-back">
                   <div class="reviews__bgback" onclick="flipCardThree()">
-                    <img src="./images/reviews/rectangle.jpg"  class='reviews__img'>
+                    <img
+                      src="./images/reviews/rectangle.jpg"
+                      class="reviews__img" />
                   </div>
                 </div>
               </div>
@@ -513,60 +524,71 @@
       </section>
     </main>
     <footer class="footer">
-      <div class=" container container--center container--padding-top">
+      <div class="container container--center container--padding-top">
         <div class="footer-container">
-          <h2 class=" header-dark-bg footer__header">Contacts</h2>
+          <h2 class="header-dark-bg footer__header">Contacts</h2>
           <div class="footer__info-container">
-          <address class="footer__address">
-            <ul class="footer__address-list list">
-              <li class="footer__address-item">
-                <svg class="footer__address-icon">
-                  <use href="./images/icons.svg#icon-place"></use>
-                </svg>
-                <a href="https://maps.app.goo.gl/eKC1cPj5qVq1tKJK9" class="footer__address-link link" target="_blank">Lviv, st Dorosheko, 44 k</a>
+            <address class="footer__address">
+              <ul class="footer__address-list list">
+                <li class="footer__address-item">
+                  <svg class="footer__address-icon">
+                    <use href="./images/icons.svg#icon-place"></use>
+                  </svg>
+                  <a
+                    href="https://maps.app.goo.gl/eKC1cPj5qVq1tKJK9"
+                    class="footer__address-link link"
+                    target="_blank"
+                    >Lviv, st Dorosheko, 44 k</a
+                  >
+                </li>
+                <li class="footer__address-item">
+                  <svg class="footer__address-icon">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>
+                  <a href="tel:+380971626790" class="footer__address-link link"
+                    >+38 (097) 162-67-90</a
+                  >
+                </li>
+                <li class="footer__address-item">
+                  <svg class="footer__address-icon">
+                    <use href="./images/icons.svg#icon-email"></use>
+                  </svg>
+                  <a
+                    href="mailto:mandrykarpaty@gmail.com"
+                    class="footer__address-link link"
+                    >mandrykarpaty@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="footer__social-list list">
+              <li class="footer__social-item">
+                <a class="footer_social-link link" href="">
+                  <svg class="footer__social-icon">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="footer__address-item">
-                <svg class="footer__address-icon">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-                <a  href="tel:+380971626790" class="footer__address-link link">+38 (097) 162-67-90</a>
+              <li class="footer__social-item">
+                <a class="footer_social-link link" href="">
+                  <svg class="footer__social-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="footer__address-item">
-                <svg class="footer__address-icon">
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg>
-                <a href="mailto:mandrykarpaty@gmail.com" class="footer__address-link link">mandrykarpaty@gmail.com</a>
+              <li class="footer__social-item">
+                <a class="footer_social-link link" href="">
+                  <svg class="footer__social-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-          <ul class="footer__social-list list">
-            <li  class="footer__social-item">
-              <a class="footer_social-link link" href="">
-                <svg class="footer__social-icon">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg>
-              </a>
-          </li>
-            <li class="footer__social-item">
-              <a class="footer_social-link link" href="">
-                <svg class="footer__social-icon">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer__social-item">
-              <a class="footer_social-link link" href="">
-                <svg class="footer__social-icon">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-            </li>
-          </ul>
+          </div>
         </div>
-        </div>
-        <p class="footer__copyright">	&copy; Created by LelekaSoft</p>
-    </div>
-  </footer>
+        <p class="footer__copyright">&copy; Created by LelekaSoft</p>
+      </div>
+    </footer>
 
     <!-- Modal start -->
     <div class="backdrop is-hidden" data-modal>
